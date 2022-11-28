@@ -1,0 +1,27 @@
+@media only screen and (max-width:767px){
+.carousel-inner {
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+    height: 300px;
+}
+
+.carousel-caption {
+    position: absolute;
+    left: 0px;
+    width: 100%;
+    top: 92px;
+}
+
+.carousel-caption h5 {
+    text-align: center;
+    font-size: 22px;
+	line-height: 30px;
+    margin-bottom: 20px;
+}
+
+
+
+
+	
+}
