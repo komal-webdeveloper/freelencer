@@ -1,250 +1,577 @@
 <html lang="en">
-    <head>
+   <head>
       <title>RBT</title>
       <meta charset="utf-8">
       <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link href="css/bootstrap.min.css" rel="stylesheet">
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
-        <link rel="preconnect" href="https://fonts.googleapis.com">
+      <link href="css/bootstrap.min.css" rel="stylesheet">
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+      <link rel="preconnect" href="https://fonts.googleapis.com">
       <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-        <link rel="stylesheet" href="css/owl.css">
-        
-        <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css"/>
-    
+      <link rel="stylesheet" href="css/owl.css">
+      <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css"/>
       <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
-        <link rel="stylesheet" href="css/style.css"> 
-        
-    
-     </head>
-<body>
-<header>
-  <nav class="navbar navbar-expand-lg navbar-light light">
-    <div class="container">
-      <a class="navbar-brand" href="#">
-        <img src="images/freelancer-logo-old.svg" alt="">
-      </a>
-      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse" id="navbarSupportedContent">
-        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-          <li class="nav-item">
-            <a class="nav-link" href="#">How It Works</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">Browse Jobs</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">Log In</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">Sign Up</a>
-          </li>
-        </ul>
-        <form class="d-flex">
-          <button class="btn btn-outline-success" type="submit">Post a project</button>
-        </form>
-      </div>
-    </div>
-  </nav>
-  </header>
-
-  <!--header-second-->
-
-
-  <header>
-    <nav class="navbar navbar-expand-lg navbar-light light-line">
-      <div class="container">
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-            <li class="nav-item dropdown">
-              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-               Find Jobs
-              </a>
-              <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                <li><a class="dropdown-item" href="#">Action</a></li>
-                <li><a class="dropdown-item" href="#">Another action</a></li>
-              </ul>
-            </li>
-            <li class="nav-item dropdown">
-              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-            Hire Freelancers
-              </a>
-              <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                <li><a class="dropdown-item" href="#">Action</a></li>
-                <li><a class="dropdown-item" href="#">Another action</a></li>
-              </ul>
-            </li>
-            <li class="nav-item dropdown">
-              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-          Get Ideas
-              </a>
-              <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                <li><a class="dropdown-item" href="#">Action</a></li>
-                <li><a class="dropdown-item" href="#">Another action</a></li>
-              </ul>
-            </li>
-            <li class="nav-item dropdown">
-              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-           About
-              </a>
-              <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                <li><a class="dropdown-item" href="#">Action</a></li>
-                <li><a class="dropdown-item" href="#">Another action</a></li>
-              </ul>
-            </li>
-            <li class="nav-item dropdown">
-              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-       Resources
-              </a>
-              <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                <li><a class="dropdown-item" href="#">Action</a></li>
-                <li><a class="dropdown-item" href="#">Another action</a></li>
-              </ul>
-            </li>
-          </ul>
-        </div>
-      </div>
-    </nav>
-  </header>
-<!--slider-->
-<!-- Swiper -->
-<section class="swip-section">
-<div class="swiper mySwiper">
-  <div class="swiper-wrapper">
-    <div class="swiper-slide">
-      <div class="swip-content">
-        <h1>Hire the best freelancers for any job, online.</h1>
-        <ul>
-          <li>
-            World's largest freelance marketplace
-          </li>
-          <li>
-            Any job you can possibly think of
-          </li>
-          <li>
-            Save up to 90% & get quotes for free
-          </li>
-          <li>
-            Pay only when you're 100% happy
-          </li>
-        </ul>
-        <a href="#" class="a-1">
-          <button> Hire a freelancer</button>
-        </a>
-        <a href="#" class="a-2">
-          <button> Earn Money Freelancing</button>
-        </a>
-        </div>
-        </div>
-      <img src="images/slider-b-1.png" />
-    </div>
-    <div class="swiper-slide">
-      <div class="swip-content">
-        <h1>Hire the best freelancers for any job, online.</h1>
-        <ul>
-          <li>
-            World's largest freelance marketplace
-          </li>
-          <li>
-            Any job you can possibly think of
-          </li>
-          <li>
-            Save up to 90% & get quotes for free
-          </li>
-          <li>
-            Pay only when you're 100% happy
-          </li>
-        </ul>
-        <a href="#" class="a-1">
-          <button> Hire a freelancer</button>
-        </a>
-        <a href="#" class="a-2">
-          <button> Earn Money Freelancing</button>
-        </a>
-        </div>
-      <img src="images/slider-b-1.png" />
-    </div>
-    <div class="swiper-slide">
-      <div class="swip-content">
-        <h1>Hire the best freelancers for any job, online.</h1>
-        <ul>
-          <li>
-            World's largest freelance marketplace
-          </li>
-          <li>
-            Any job you can possibly think of
-          </li>
-          <li>
-            Save up to 90% & get quotes for free
-          </li>
-          <li>
-            Pay only when you're 100% happy
-          </li>
-        </ul>
-        <a href="#" class="a-1">
-          <button> Hire a freelancer</button>
-        </a>
-        <a href="#" class="a-2">
-          <button> Earn Money Freelancing</button>
-        </a>
-        </div>
-      <img src="images/slider-b-1.png" />
-    </div>
-    <div class="swiper-slide">
-      <div class="swip-content">
-        <h1>Hire the best freelancers for any job, online.</h1>
-        <ul>
-          <li>
-            World's largest freelance marketplace
-          </li>
-          <li>
-            Any job you can possibly think of
-          </li>
-          <li>
-            Save up to 90% & get quotes for free
-          </li>
-          <li>
-            Pay only when you're 100% happy
-          </li>
-        </ul>
-        <a href="#" class="a-1">
-          <button> Hire a freelancer</button>
-        </a>
-        <a href="#" class="a-2">
-          <button> Earn Money Freelancing</button>
-        </a>
-        </div>
-      <img src="images/slider-b-1.png" />
-    </div>
-  </div>
-</div>
-
-</section>
-     
-  <script src="js/bootstrap.bundle.min.js"></script>
-  <script src="js/jquery.min.js"></script>
- <script src="js/owl-carousel.js"></script>
-  <!-- Swiper JS -->
-  <script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
-
-  <!-- Initialize Swiper -->
-  <script>
-    var swiper = new Swiper(".mySwiper", {
-      spaceBetween: 30,
-      effect: "fade",
-      autoplay: {
-          delay: 2500,
-          disableOnInteraction: false,
-        },
-    
-    });
-  </script>
-
-
-
-</body>
+      <link rel="stylesheet" href="css/style.css">
+   </head>
+   <body>
+      <header>
+         <nav class="navbar navbar-expand-lg navbar-light light">
+            <div class="container">
+               <a class="navbar-brand" href="#">
+               <img src="images/freelancer-logo-old.svg" alt="">
+               </a>
+               <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+               <span class="navbar-toggler-icon"></span>
+               </button>
+               <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                  <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                     <li class="nav-item">
+                        <a class="nav-link" href="#">How It Works</a>
+                     </li>
+                     <li class="nav-item">
+                        <a class="nav-link" href="#">Browse Jobs</a>
+                     </li>
+                     <li class="nav-item">
+                        <a class="nav-link" href="#">Log In</a>
+                     </li>
+                     <li class="nav-item">
+                        <a class="nav-link" href="#">Sign Up</a>
+                     </li>
+                  </ul>
+                  <form class="d-flex">
+                     <button class="btn btn-outline-success" type="submit">Post a project</button>
+                  </form>
+               </div>
+            </div>
+         </nav>
+      </header>
+      <!--header-second-->
+      <header>
+         <nav class="navbar navbar-expand-lg navbar-light light-line">
+            <div class="container">
+               <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+               <span class="navbar-toggler-icon"></span>
+               </button>
+               <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                  <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                     <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        Find Jobs
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                           <li><a class="dropdown-item" href="#">Action</a></li>
+                           <li><a class="dropdown-item" href="#">Another action</a></li>
+                        </ul>
+                     </li>
+                     <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        Hire Freelancers
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                           <li><a class="dropdown-item" href="#">Action</a></li>
+                           <li><a class="dropdown-item" href="#">Another action</a></li>
+                        </ul>
+                     </li>
+                     <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        Get Ideas
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                           <li><a class="dropdown-item" href="#">Action</a></li>
+                           <li><a class="dropdown-item" href="#">Another action</a></li>
+                        </ul>
+                     </li>
+                     <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        About
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                           <li><a class="dropdown-item" href="#">Action</a></li>
+                           <li><a class="dropdown-item" href="#">Another action</a></li>
+                        </ul>
+                     </li>
+                     <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        Resources
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                           <li><a class="dropdown-item" href="#">Action</a></li>
+                           <li><a class="dropdown-item" href="#">Another action</a></li>
+                        </ul>
+                     </li>
+                  </ul>
+               </div>
+            </div>
+         </nav>
+      </header>
+      <!--slider-->
+      <!-- Swiper -->
+      <section class="swip-section">
+         <div class="swiper mySwiper">
+            <div class="swiper-wrapper">
+               <div class="swiper-slide">
+                  <div class="swip-content">
+                     <h1>Hire the best freelancers for any job, online.</h1>
+                     <ul>
+                        <li>
+                           World's largest freelance marketplace
+                        </li>
+                        <li>
+                           Any job you can possibly think of
+                        </li>
+                        <li>
+                           Save up to 90% & get quotes for free
+                        </li>
+                        <li>
+                           Pay only when you're 100% happy
+                        </li>
+                     </ul>
+                     <a href="#" class="a-1">
+                     <button> Hire a freelancer</button>
+                     </a>
+                     <a href="#" class="a-2">
+                     <button> Earn Money Freelancing</button>
+                     </a>
+                  </div>
+                  <img src="images/slider-b-1.png" />
+               </div>
+               <div class="swiper-slide">
+                  <div class="swip-content">
+                     <h1>Hire the best freelancers for any job, online.</h1>
+                     <ul>
+                        <li>
+                           World's largest freelance marketplace
+                        </li>
+                        <li>
+                           Any job you can possibly think of
+                        </li>
+                        <li>
+                           Save up to 90% & get quotes for free
+                        </li>
+                        <li>
+                           Pay only when you're 100% happy
+                        </li>
+                     </ul>
+                     <a href="#" class="a-1">
+                     <button> Hire a freelancer</button>
+                     </a>
+                     <a href="#" class="a-2">
+                     <button> Earn Money Freelancing</button>
+                     </a>
+                  </div>
+                  <img src="images/slider-b-1.png" />
+               </div>
+               <div class="swiper-slide">
+                  <div class="swip-content">
+                     <h1>Hire the best freelancers for any job, online.</h1>
+                     <ul>
+                        <li>
+                           World's largest freelance marketplace
+                        </li>
+                        <li>
+                           Any job you can possibly think of
+                        </li>
+                        <li>
+                           Save up to 90% & get quotes for free
+                        </li>
+                        <li>
+                           Pay only when you're 100% happy
+                        </li>
+                     </ul>
+                     <a href="#" class="a-1">
+                     <button> Hire a freelancer</button>
+                     </a>
+                     <a href="#" class="a-2">
+                     <button> Earn Money Freelancing</button>
+                     </a>
+                  </div>
+                  <img src="images/slider-b-1.png" />
+               </div>
+               <div class="swiper-slide">
+                  <div class="swip-content">
+                     <h1>Hire the best freelancers for any job, online.</h1>
+                     <ul>
+                        <li>
+                           World's largest freelance marketplace
+                        </li>
+                        <li>
+                           Any job you can possibly think of
+                        </li>
+                        <li>
+                           Save up to 90% & get quotes for free
+                        </li>
+                        <li>
+                           Pay only when you're 100% happy
+                        </li>
+                     </ul>
+                     <a href="#" class="a-1">
+                     <button> Hire a freelancer</button>
+                     </a>
+                     <a href="#" class="a-2">
+                     <button> Earn Money Freelancing</button>
+                     </a>
+                  </div>
+                  <img src="images/slider-b-1.png"/>
+               </div>
+            </div>
+         </div>
+         </div>
+      </section>
+      <!--logo-section-->
+      <section class="logo-section">
+         <div class="container ps-0 pe-0">
+            <div class="row">
+               <div class="col">
+                  <h5>As Used by</h5>
+               </div>
+               <div class="col">
+                  <img src="images/amazon-logo.png" alt="">
+               </div>
+               <div class="col">
+                  <img src="images/amazon-logo.png" alt="">
+               </div>
+               <div class="col">
+                  <img src="images/amazon-logo.png" alt="">
+               </div>
+               <div class="col">
+                  <img src="images/amazon-logo.png" alt="">
+               </div>
+               <div class="col">
+                  <img src="images/amazon-logo.png" alt="">
+               </div>
+               <div class="col">
+                  <img src="images/amazon-logo.png" alt="">
+               </div>
+               <div class="col">
+                  <img src="images/amazon-logo.png" alt="">
+               </div>
+               <div class="col">
+                  <img src="images/amazon-logo.png" alt="">
+               </div>
+               <div class="col">
+                  <img src="images/amazon-logo.png" alt="">
+               </div>
+               <div class="col">
+                  <img src="images/amazon-logo.png" alt="">
+               </div>
+            </div>
+         </div>
+      </section>
+      <!--great-about-section-->
+      <section class="great-section">
+         <div class="container ps-0 pe-0">
+            <h1>Need something done?</h1>
+            <div class="row">
+               <div class="col-md-3">
+                  <div class="great-box">
+                     <img src="images/post-1.svg" alt="">
+                     <h4>
+                        Post a job
+                     </h4>
+                     <p>It’s free and easy to post a job. Simply fill in a title, description and budget and competitive bids come within minutes.</p>
+                  </div>
+               </div>
+               <div class="col-md-3">
+                  <div class="great-box">
+                     <img src="images/post-1.svg" alt="">
+                     <h4>
+                        Post a job
+                     </h4>
+                     <p>It’s free and easy to post a job. Simply fill in a title, description and budget and competitive bids come within minutes.</p>
+                  </div>
+               </div>
+               <div class="col-md-3">
+                  <div class="great-box">
+                     <img src="images/post-1.svg" alt="">
+                     <h4>
+                        Post a job
+                     </h4>
+                     <p>It’s free and easy to post a job. Simply fill in a title, description and budget and competitive bids come within minutes.</p>
+                  </div>
+               </div>
+               <div class="col-md-3">
+                  <div class="great-box">
+                     <img src="images/post-1.svg" alt="">
+                     <h4>
+                        Post a job
+                     </h4>
+                     <p>It’s free and easy to post a job. Simply fill in a title, description and budget and competitive bids come within minutes.</p>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </section>
+      <!--Need-something-->
+      <section class="great-section">
+         <div class="container ps-0 pe-0">
+            <h1>What's great about it?</h1>
+            <div class="row">
+               <div class="col-md-3">
+                  <div class="great-box">
+                     <img src="images/post-1.svg" alt="">
+                     <h4>
+                        Post a job
+                     </h4>
+                     <p>It’s free and easy to post a job. Simply fill in a title, description and budget and competitive bids come within minutes.</p>
+                  </div>
+               </div>
+               <div class="col-md-3">
+                  <div class="great-box">
+                     <img src="images/post-1.svg" alt="">
+                     <h4>
+                        Post a job
+                     </h4>
+                     <p>It’s free and easy to post a job. Simply fill in a title, description and budget and competitive bids come within minutes.</p>
+                  </div>
+               </div>
+               <div class="col-md-3">
+                  <div class="great-box">
+                     <img src="images/post-1.svg" alt="">
+                     <h4>
+                        Post a job
+                     </h4>
+                     <p>It’s free and easy to post a job. Simply fill in a title, description and budget and competitive bids come within minutes.</p>
+                  </div>
+               </div>
+               <div class="col-md-3">
+                  <div class="great-box">
+                     <img src="images/post-1.svg" alt="">
+                     <h4>
+                        Post a job
+                     </h4>
+                     <p>It’s free and easy to post a job. Simply fill in a title, description and budget and competitive bids come within minutes.</p>
+                  </div>
+                </div>
+            </div>
+           
+         </div>
+      </section>
+      <!--Make-it-Real-with-Freelancer-->
+      <section class="make-real-section">
+         <div class="container ps-0 pe-0">
+            <h1>Make it Real with Freelancer.</h1>
+            <h6>Get some Inspirations from 1800+ skills</h6>
+            <div class="row">
+               <div class="col-md-3">
+                  <div class="real-box">
+                     <div class="in-box">
+                        <a href="#" class="make-a"> Discover More</a>
+                     </div>
+                     <img src="images/logo-design-1.webp" alt="">
+                  </div>
+                  <div class="real-c">
+                    <h3>Logo Design.
+                      $30 USD in 1 day.</h3></h3>
+                  </div>
+               </div>
+               <div class="col-md-3">
+                  <div class="real-box">
+                     <div class="in-box">
+                        <a href="#" class="make-a"> Discover More</a>
+                     </div>
+                     <img src="images/logo-design-1.webp" alt="">
+                  </div>
+                  <div class="real-c">
+                    <h3>Logo Design.
+                      $30 USD in 1 day.</h3>
+                  </div>
+               </div>
+               <div class="col-md-3">
+                  <div class="real-box">
+                     <div class="in-box">
+                        <a href="#" class="make-a"> Discover More</a>
+                     </div>
+                     <img src="images/logo-design-1.webp" alt="">
+                  </div>
+                  <div class="real-c">
+                    <h3> Logo Design.
+                      $30 USD in 1 day.</h3>
+                  </div>
+               </div>
+               <div class="col-md-3">
+                  <div class="real-box">
+                     <div class="in-box">
+                        <a href="#" class="make-a"> Discover More</a>
+                     </div>
+                     <img src="images/logo-design-1.webp" alt="">
+                  </div>
+                  <div class="real-c">
+                    <h3> Logo Design.
+                      $30 USD in 1 day.</h3>
+                  </div>
+               </div>
+               <div class="col-md-3">
+                  <div class="real-box">
+                     <div class="in-box">
+                        <a href="#" class="make-a"> Discover More</a>
+                     </div>
+                     <img src="images/logo-design-1.webp" alt="">
+                  </div>
+                  <div class="real-c">
+                    <h3> Logo Design.
+                      $30 USD in 1 day.</h3>
+                  </div>
+               </div>
+               <div class="col-md-3">
+                  <div class="real-box">
+                     <div class="in-box">
+                        <a href="#" class="make-a"> Discover More</a>
+                     </div>
+                     <img src="images/logo-design-1.webp" alt="">
+                  </div>
+                  <div class="real-c">
+                   <h3>Logo Design.
+                      $30 USD in 1 day.</h3>
+                  </div>
+               </div>
+               <div class="col-md-3">
+                  <div class="real-box">
+                     <div class="in-box">
+                        <a href="#" class="make-a"> Discover More</a>
+                     </div>
+                     <img src="images/logo-design-1.webp" alt="">
+                  </div>
+                  <div class="real-c">
+                  <h3>Logo Design.
+                      $30 USD in 1 day.</h3>
+                  </div>
+               </div>
+               <div class="col-md-3">
+                  <div class="real-box">
+                     <div class="in-box">
+                        <a href="#" class="make-a"> Discover More</a>
+                     </div>
+                     <img src="images/logo-design-1.webp" alt="">
+                  </div>
+                  <div class="real-c">
+                     <h3>Logo Design.
+                      $30 USD in 1 day.</h3>
+                  </div>
+               </div>
+               <div class="col-md-3">
+                  <div class="real-box">
+                     <div class="in-box">
+                        <a href="#" class="make-a"> Discover More</a>
+                     </div>
+                     <img src="images/logo-design-1.webp" alt="">
+                  </div>
+                  <div class="real-c">
+                   <h3>Logo Design.
+                      $30 USD in 1 day.</h3>
+                  </div>
+               </div>
+               <div class="col-md-3">
+                  <div class="real-box">
+                     <div class="in-box">
+                        <a href="#" class="make-a"> Discover More</a>
+                     </div>
+                     <img src="images/logo-design-1.webp" alt="">
+                    
+                  </div>
+                  <div class="real-c">
+                    <h3>Logo Design.
+                      $30 USD in 1 day.</h3>
+                  </div>
+               </div>
+               <div class="col-md-3">
+                  <div class="real-box">
+                     <div class="in-box">
+                        <a href="#" class="make-a"> Discover More</a>
+                     </div>
+                     <img src="images/logo-design-1.webp" alt="">
+                    
+                  </div>
+                  <div class="real-c">
+                     <h3>Logo Design.
+                      $30 USD in 1 day.</h3>
+                  </div>
+               </div>
+               <div class="col-md-3">
+                  <div class="real-box">
+                     <div class="in-box">
+                        <a href="#" class="make-a"> Discover More</a>
+                     </div>
+                     <img src="images/logo-design-1.webp" alt="">
+                   
+                  </div>
+                  <div class="real-c">
+                     <h3>Logo Design.
+                      $30 USD in 1 day.</h3>
+                  </div>
+               </div>
+               <div class="col-md-3">
+                  <div class="real-box">
+                     <div class="in-box">
+                        <a href="#" class="make-a"> Discover More</a>
+                     </div>
+                     <img src="images/logo-design-1.webp" alt="">
+                    
+                  </div>
+                  <div class="real-c">
+                    <h3>Logo Design.
+                      $30 USD in 1 day.</h3>
+                  </div>
+               </div>
+               <div class="col-md-3">
+                  <div class="real-box">
+                     <div class="in-box">
+                        <a href="#" class="make-a"> Discover More</a>
+                     </div>
+                     <img src="images/logo-design-1.webp" alt="">
+                     
+                  </div>
+                  <div class="real-c">
+                    <h3>Logo Design.
+                      $30 USD in 1 day.</h3>
+                  </div>
+               </div>
+               <div class="col-md-3">
+                  <div class="real-box">
+                     <div class="in-box">
+                        <a href="#" class="make-a"> Discover More</a>
+                     </div>
+                     <img src="images/logo-design-1.webp" alt="">
+                     
+                  </div>
+                  <div class="real-c">
+                    <h3>Logo Design.
+                      $30 USD in 1 day.</h3>
+                  </div>
+               </div>
+               <div class="col-md-3">
+                  <div class="real-box">
+                     <div class="in-box">
+                        <a href="#" class="make-a"> Discover More</a>
+                     </div>
+                     <img src="images/logo-design-1.webp" alt="">
+                  </div>
+                  <div class="real-c">
+                     <h3>Logo Design.
+                      $30 USD in 1 day.</h3>
+                  </div>
+               </div>
+              
+               <a href="#" class="pro-an">
+                <button>View More Projects</button>
+               </a>
+            </div>
+         </div>
+      </section>
+      <script src="js/bootstrap.bundle.min.js"></script>
+      <script src="js/jquery.min.js"></script>
+      <script src="js/owl-carousel.js"></script>
+      <!-- Swiper JS -->
+      <script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
+      <!-- Initialize Swiper -->
+      <script>
+         var swiper = new Swiper(".mySwiper", {
+           spaceBetween: 30,
+           effect: "fade",
+           autoplay: {
+               delay: 2500,
+               disableOnInteraction: false,
+             },
+         
+         });
+      </script>
+   </body>
 </html>
