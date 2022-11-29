@@ -107,3 +107,160 @@ a.a-2 button {
 a.a-2 button:hover{
 background-color: rgba(255,255,255,.2);
 }
+/**fourth-section**/
+.logo-box ul {
+    margin: 0;
+    padding: 0;
+    display: inline-block;
+}
+.logo-box ul li{
+    float: left;
+}
+
+.great-box h4 {
+    height: 5rem;
+    font-weight: 700;
+}
+.great-box img {
+    float: left;
+    width: 4rem;
+    margin-right: 1rem;
+}
+.great-box p {
+    font-size: 18px;
+    color: #000;
+}
+.great-section {
+    padding: 4rem 0rem 6rem 0rem ;
+}
+
+.great-section .row{
+    position: relative;
+}
+.great-section .row:after {
+    content: '';
+    border: 1px solid #dedede;
+    top: 18rem;
+    left: 0rem;
+    width: 100%;
+    position: absolute;
+}
+.great-section h1 {
+    font-size: 3rem;
+    font-weight: 700;
+    margin-bottom: 6rem;
+}
+.logo-section {
+    padding:1.9rem 0rem 4rem 0rem;
+}
+.logo-section .row {
+    position: relative;
+}.logo-section .row:after {
+    top: 4.5rem;
+    content: '';
+    position: absolute;
+    left: 0;
+    border: 1px solid #dedede;
+    width: 100%;
+}
+.logo-section .col {
+    margin: 0;
+    padding: 0;
+}
+
+.logo-section h5
+{
+font-weight: 400;
+    /* margin-right: 0rem; */
+    font-size: 18px;
+    padding-top: 0.2rem;
+}
+
+.real-box img {
+    width: 100%;
+}
+.real-box{
+    position: relative;
+}
+.in-box{
+    position: absolute;
+    background-color: #19202d99;
+    top: 0px;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    display: none;
+}
+.make-a{
+    color: #fff;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 600;
+    padding: 8px 20px;
+    border: 2px solid #fff;
+    position: absolute;
+    left: 3rem;
+    top: 5rem;
+}
+.make-a:hover{
+    color: #fff;
+}
+ .real-box:hover .in-box{
+    display: block;
+ }
+.make-real-section {
+    padding: 5rem 0rem 8rem 0rem;
+}
+.make-real-section .row{
+    position: relative;
+}
+.make-real-section .row:after{
+    position:absolute;
+    top: 93.5rem;
+    left: 0;
+    content: '';
+    width: 100%;
+    border: 1px solid #dedede;
+}
+
+.make-real-section h1 {
+    font-size: 3rem;
+    font-weight: 700;
+    padding-bottom: 1.5rem;
+}
+.make-real-section h6 {
+    font-size: 20px;
+    padding-bottom: 2rem;
+    font-weight: 400;
+}
+.real-c h3 {
+    font-size: 24px;
+    width: 13rem;
+    font-weight: 700;
+}
+.real-c {
+    padding: 1rem 0rem 2.6rem 0rem;
+}
+.pro-a button {
+    border: none;
+    background-color: #f20091;
+    color: #fff;
+    padding: 10px 30px;
+    display: block;
+    margin: 0 auto;
+    font-size: 20px;
+    transition: 0.3s;
+    font-weight: 500;
+    margin-top: 3rem;
+}
+.pro-a{
+    text-decoration: none;
+}
+
+.pro-a button:hover{
+    color: #f7f7f7;
+    background-color: #d90082;
+
+}
+
