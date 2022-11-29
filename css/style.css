@@ -263,4 +263,37 @@ font-weight: 400;
     background-color: #d90082;
 
 }
+.diff-img {
+    width: 11rem;
+}
+.diff-img img {
+    width: 2rem;
+    float: left;
+    margin-right: 0.5rem;
+    cursor: pointer;
+}
+.diff-img a{
+    color: #000;
+    text-decoration: none;
+}
 
+
+.diff-img a:hover{
+    text-decoration: underline;
+    text-decoration-color: #000;
+}
+.diff-img {
+    width: 11rem;
+    margin-bottom: 2.5rem;
+}
+.different-categories-sec {
+    padding: 4rem 0rem 5rem 0rem;
+}
+.different-categories-sec h1 {
+    font-size: 3rem;
+    font-weight: 700;
+    padding-bottom: 4rem;
+}
+.api-box img {
+    width: 100%;
+}
